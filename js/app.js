@@ -4,3 +4,6 @@
 
 // 比如：导入之前提到的更现代化的 scss 样式
 import '../scss/app.scss';
+
+// Import all of Bootstrap's JS
+import * as bootstrap from 'bootstrap'
