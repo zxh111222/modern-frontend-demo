@@ -10,3 +10,11 @@ import * as bootstrap from 'bootstrap'
 
 // Import Animate.css
 import 'animate.css';
+
+// Import
+import Typed from 'typed.js';
+
+const typed = new Typed('#element', {
+    strings: ['用简短的一段描述介绍自己的网站'],
+    typeSpeed: 50,
+});
