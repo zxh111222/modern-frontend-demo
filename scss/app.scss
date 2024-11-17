@@ -1,5 +1,5 @@
-// Colors
-$primary: #DE3712 !default;
+// Variable overrides first
+@import "partials/variable-overrides-first";
 
 // Import all of Bootstrap's CSS
 @import "bootstrap/scss/bootstrap";
