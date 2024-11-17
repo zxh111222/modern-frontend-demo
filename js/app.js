@@ -16,7 +16,8 @@ import Typed from 'typed.js';
 
 const typed = new Typed('#element', {
     strings: ['用简短的一段描述介绍自己的网站'],
-    typeSpeed: 50,
+    typeSpeed: 150,
+    startDelay: 300
 });
 
 // Import AOS - Animate on scroll library
