@@ -1,0 +1,40 @@
+/*============ Header Styles  =============*/
+
+/* logo animate */
+@keyframes ltHover {
+  to {
+    transform: translateX(15px)
+  }
+}
+
+@keyframes zHover {
+  to {
+    transform: translateY(-8px);
+  }
+}
+
+@keyframes gtHover {
+  to {
+    transform: translateX(-15px);
+  }
+}
+
+svg#logo {
+  &:hover {
+    path#logo-lt {
+      animation-name: ltHover;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+    }
+    path#logo-z {
+      animation-name: zHover;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+    }
+    path#logo-gt {
+      animation-name: gtHover;
+      animation-duration: 1s;
+      animation-fill-mode: forwards;
+    }
+  }
+}
