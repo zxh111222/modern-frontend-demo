@@ -11,10 +11,16 @@ import * as bootstrap from 'bootstrap'
 // Import Animate.css
 import 'animate.css';
 
-// Import
+// Import Typed - A JavaScript Typing Animation Library
 import Typed from 'typed.js';
 
 const typed = new Typed('#element', {
     strings: ['用简短的一段描述介绍自己的网站'],
     typeSpeed: 50,
 });
+
+// Import AOS - Animate on scroll library
+import AOS from 'aos';
+import 'aos/dist/aos.css'; // You can also use <link> for styles
+
+AOS.init();
